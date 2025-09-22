@@ -66,8 +66,18 @@ const CoursScreen = ({ navigation }) => {
       backgroundColor: '#E8EAF6',
       progressColor: '#5C6BC0',
       playButtonColor: '#3F51B5',
-      route: 'Glossary',
-      isFullWidth: true
+      route: 'Glossary'
+    },
+    {
+      id: 'a1',
+      title: 'A1',
+      completed: 8,
+      total: 12,
+      progress: 0.67,
+      backgroundColor: '#F3E5F5',
+      progressColor: '#AB47BC',
+      playButtonColor: '#9C27B0',
+      route: 'A1'
     }
   ];
 
@@ -156,18 +166,19 @@ const CoursScreen = ({ navigation }) => {
           {/* First Row */}
           <View style={styles.courseRow}>
             {renderCourseCard(courses[0], 0)}
-            {renderCourseCard(courses[1], 1)}
+            {renderCourseCard(courses[4], 4)}
           </View>
           
           {/* Second Row */}
           <View style={styles.courseRow}>
+            {renderCourseCard(courses[1], 1)}
             {renderCourseCard(courses[2], 2)}
-            {renderCourseCard(courses[3], 3)}
           </View>
           
-          {/* Third Row - Full Width */}
+          {/* Third Row - Glossary and A1 */}
           <View style={styles.courseRow}>
-            {renderCourseCard(courses[4], 4)}
+            {renderCourseCard(courses[3], 3)}
+            {renderCourseCard(courses[5], 5)}
           </View>
         </View>
       </ScrollView>
@@ -257,13 +268,14 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     marginBottom: 20,
+   
   },
   courseCard: {
     flex: 1,
-    aspectRatio: 1,
-    borderRadius: 24,
+    aspectRatio: 0.95,
+    borderRadius: 25,
     padding: 20,
-    marginHorizontal: 5,
+    marginHorizontal:10,
     shadowColor: '#000',
     shadowOffset: {
       width: 0,

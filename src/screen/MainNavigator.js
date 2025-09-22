@@ -13,6 +13,7 @@ import UniversityScreen from './exams/University/UniversityScreen';
 import B2Screen from './exams/B2/B2Screen';
 import B1Screen from './exams/B1/B1Screen';
 import A2Screen from './exams/A2/A2Screen';
+import A1Screen from './exams/A1/A1Screen'; 
 import GlossaryScreen from './glossary/GlossaryScreen';
 
 //Exam univerity 1
@@ -50,6 +51,7 @@ const CourseStackNavigator = () => (
     <CourseStack.Screen name="B2" component={B2Screen} />
     <CourseStack.Screen name="B1" component={B1Screen} />
     <CourseStack.Screen name="A2" component={A2Screen} />
+    <CourseStack.Screen name="A1" component={A1Screen} />
     <CourseStack.Screen name="Glossary" component={GlossaryScreen} />
   </CourseStack.Navigator>
 );

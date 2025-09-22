@@ -394,7 +394,6 @@ Correct Risponce:   *3* il suo
 
 
  --------------------------------------------------------------------------------------
-
  26  Completa la frase con la preposizione corretta. 
 L'anno prossimo vado a studiare ... Stati Uniti. 
  
@@ -402,6 +401,7 @@ L'anno prossimo vado a studiare ... Stati Uniti.
  *2* in  
  *3* agli 
  *4* nei  
+
  *5* negli
 
 Correct Risponce: *2* per 
@@ -465,7 +465,7 @@ ed è partito per la Germania, dove è rimasto per sei mesi. In quel periodo lui
 conoscenze e ......... a tante feste. 
 
 
-(, , , , )
+
 
 
 

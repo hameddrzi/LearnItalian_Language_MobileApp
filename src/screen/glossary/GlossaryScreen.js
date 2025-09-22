@@ -7,6 +7,7 @@ import {
   SafeAreaView,
   ScrollView,
   TextInput,
+  Image
 } from 'react-native';
 
 const GlossaryScreen = ({ navigation }) => {
@@ -31,10 +32,13 @@ const GlossaryScreen = ({ navigation }) => {
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.header}>
           <TouchableOpacity 
-            style={styles.backButton}
+             
             onPress={() => navigation.goBack()}
           >
-            <Text style={styles.backIcon}>←</Text>
+            <Image
+              source={require('../../../assets/pic/mainIcons/Back.png')}
+              style={{height: 50, width: 50, tintColor: '#0a0a0ab4', marginTop: 40}}
+            />
           </TouchableOpacity>
           <Text style={styles.title}>Glossary</Text>
           <View style={styles.placeholder} />
@@ -118,6 +122,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontFamily: 'Poppins-Bold',
     color: '#1F2937',
+    marginTop: 40
   },
   placeholder: {
     width: 40,
@@ -245,6 +250,8 @@ const styles = StyleSheet.create({
 });
 
 export default GlossaryScreen;
+
+
 
 
 
