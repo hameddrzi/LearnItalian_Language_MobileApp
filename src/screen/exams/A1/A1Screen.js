@@ -134,7 +134,14 @@ function A1Screen({ navigation }) {
             <Text style={styles.lessonsTitle}>A1 Lessons</Text>
 
             {filteredLessons.map((lesson, index) => (
-              <TouchableOpacity key={index} style={styles.lessonCard}>
+              <TouchableOpacity key={index} style={styles.lessonCard}
+              onPress={() => {
+                const parentNavigator = navigation.getParent();
+                if (parentNavigator) {
+                  parentNavigator.navigate('A1LessonPager', { id: lesson.id, title: lesson.title });
+                }
+              }}
+              >
                 <View style={styles.lessonInfo}>
                   <Text style={styles.lessonNumber}>{lesson.title}</Text>
                   <Text style={styles.lessonDescription}>{lesson.description}</Text>

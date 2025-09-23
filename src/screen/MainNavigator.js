@@ -13,8 +13,13 @@ import UniversityScreen from './exams/University/UniversityScreen';
 import B2Screen from './exams/B2/B2Screen';
 import B1Screen from './exams/B1/B1Screen';
 import A2Screen from './exams/A2/A2Screen';
-import A1Screen from './exams/A1/A1Screen'; 
+
 import GlossaryScreen from './glossary/GlossaryScreen';
+
+//A1Screen
+import A1Screen from './exams/A1/A1Screen'; 
+import A1LessonPagerScreen from './exams/A1/A1LessonPagerScreen';
+
 
 //Exam univerity 1
 import ExamFirstUniversityScreen from './exams/University/Exam1/ExamFirstUniversityScreen';
@@ -137,6 +142,7 @@ const MainNavigator = () => {
         }}
       >
         <MainStack.Screen name="MainTabs" component={TabNavigator} />
+        <MainStack.Screen name="A1LessonPager" component={A1LessonPagerScreen} />
         <MainStack.Screen name="ExamFirstUniversity" component={ExamFirstUniversityScreen} />
         <MainStack.Screen name="SuccesExamFirst" component={SuccesExamFirstScreen} />
         <MainStack.Screen name="FaildExamFirst" component={FaildExamFirstScreen} />
