@@ -1,3 +1,5 @@
+//A1Screen.js
+
 import React, { useMemo, useState } from 'react';
 import {
   View,
@@ -11,18 +13,18 @@ import {
 
 
 const LESSONS = [
-  { title: 'Elementary Italian Lessons 1', description: 'Articles', type: 'lesson' },
-  { title: 'Elementary Italian Lessons 2', description: 'Plurals', type: 'lesson' },
-  { title: 'Elementary Italian Lessons 3', description: 'There is/There are', type: 'lesson' },
-  { title: 'Elementary Italian Lessons 4', description: 'Verbs in the present tense', type: 'lesson' },
-  { title: 'Elementary Italian Lessons 5', description: 'Like – Piace / Piacciono', type: 'lesson' },
-  { title: 'Elementary Italian Lessons 6', description: 'Adjectives', type: 'lesson' },
-  { title: 'Elementary Italian Lessons 7', description: 'Adverbs', type: 'lesson' },
-  { title: 'Elementary Italian Lessons 8', description: 'The Past', type: 'lesson' },
-  { title: 'Elementary Italian Lessons 9', description: 'Direct and indirect pronouns', type: 'lesson' },
-  { title: 'Elementary Italian Lessons 10', description: 'Prepositions', type: 'lesson' }, 
-  { title: 'Elementary Italian Lessons 11', description: 'Reflexive verbs', type: 'lesson' },
-  { title: 'Elementary Italian Lessons 12', description: 'The Impersonal Form With ‘Si’ ', type: 'lesson' },
+  { id: "lesson-Articles",title: 'Elementary Italian Lessons 1', description: 'Articles', type: 'lesson' },
+  { id: "lesson-Plurals",title: 'Elementary Italian Lessons 2', description: 'Plurals', type: 'lesson' },
+  { id: "lesson-There",title: 'Elementary Italian Lessons 3', description: 'There is/There are', type: 'lesson' },
+  { id: "lesson-Verbs-in-the-present-tense",title: 'Elementary Italian Lessons 4', description: 'Verbs in the present tense', type: 'lesson' },
+  { id: "lesson-Piacciono",title: 'Elementary Italian Lessons 5', description: 'Like – Piace / Piacciono', type: 'lesson' },
+  { id: "lesson-Adjectives",title: 'Elementary Italian Lessons 6', description: 'Adjectives', type: 'lesson' },
+  { id: "lesson-Adverbs",title: 'Elementary Italian Lessons 7', description: 'Adverbs', type: 'lesson' },
+  { id: "lesson-Past",title: 'Elementary Italian Lessons 8', description: 'The Past', type: 'lesson' },
+  { id: "lesson-Direct-and-indirect-pronouns",title: 'Elementary Italian Lessons 9', description: 'Direct and indirect pronouns', type: 'lesson' },
+  { id: "lesson-Prepositions",title: 'Elementary Italian Lessons 10', description: 'Prepositions', type: 'lesson' }, 
+  { id: "lesson-Reflexive-verbs",title: 'Elementary Italian Lessons 11', description: 'Reflexive verbs', type: 'lesson' },
+  { id: "lesson-The-Impersonal",title: 'Elementary Italian Lessons 12', description: 'The Impersonal Form With ‘Si’ ', type: 'lesson' },
 
 
 

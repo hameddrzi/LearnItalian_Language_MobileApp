@@ -1,3 +1,5 @@
+//A1LessonPagerScreen.js
+
 import React, { useMemo, useRef, useState } from 'react';
 import {
   SafeAreaView, View, Text, StyleSheet, TouchableOpacity, Dimensions, Animated
@@ -77,7 +79,9 @@ export default function A1LessonPagerScreen({ route, navigation }) {
         style={styles.topCard}
       >
         {/* Progress */}
-        <Text style={styles.progressText}>Articles</Text>
+        <Text style={styles.progressText}>
+          {slides[currentIndex]?.sectionTitle || ''}
+        </Text>
         <View style={styles.progressRow}>
           <View style={styles.progressBg}>
             <View style={[styles.progressFill, { width: `${progressPct}%` }]} />
@@ -87,9 +91,6 @@ export default function A1LessonPagerScreen({ route, navigation }) {
 
         {/* Card */}
         <View style={styles.whiteHolder}>
-          <View style={styles.cardShadow1} />
-          <View style={styles.cardShadow2} />
-
           <Animated.View style={[styles.card, { opacity: fadeAnim }]}>
             <CardContent slide={curr} />
           </Animated.View>
@@ -111,7 +112,7 @@ export default function A1LessonPagerScreen({ route, navigation }) {
           disabled={!canGoPrev || isAnimating}
         >
           <Text style={[styles.buttonText, !canGoPrev && styles.buttonTextDisabled]}>
-            ← Previous
+            Previous
           </Text>
         </TouchableOpacity>
 
@@ -121,7 +122,7 @@ export default function A1LessonPagerScreen({ route, navigation }) {
           disabled={isAnimating}
         >
           <Text style={[styles.buttonText, styles.nextButtonText]}>
-            {canGoNext ? 'Next →' : 'Exercises →'}
+            {canGoNext ? 'Next' : 'Exercises'}
           </Text>
         </TouchableOpacity>
       </View>
@@ -162,13 +163,14 @@ const styles = StyleSheet.create({
   whiteHolder: { height: CARD_H, marginTop: 6, justifyContent: 'center', alignItems: 'center' },
 
   card: {
-    width: width - 64,
-    height: CARD_H - 16,
+    // برای بایین اومدن تکست ها اینو بزن مارجین تاب
+    width: width - 90,
+    height: CARD_H - 1,
     borderRadius: 26,
     backgroundColor: '#fff',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.08,
+    shadowOpacity: 0.05,
     shadowRadius: 10,
     elevation: 5,
     overflow: 'hidden',
