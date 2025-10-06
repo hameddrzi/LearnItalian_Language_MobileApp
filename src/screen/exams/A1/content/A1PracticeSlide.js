@@ -127,6 +127,5 @@ export const A1_PRACTICE_SLIDES = [
   },
 
 
-  // ... بقیه سؤال‌های همین تمرین با id: 'Adjectives'
-  // { id: 'Adjectives', question: '...', options: [...], correctAnswer: ... }
+
 ];
