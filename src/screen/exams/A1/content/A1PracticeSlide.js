@@ -126,6 +126,128 @@ export const A1_PRACTICE_SLIDES = [
     correctAnswer: 1, 
   },
 
+        //must complete!!!!!!!!!!!!!!!!!!!
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Articles1',
+    question: 'Choose the correct article.\n\nHo mangiato . . .  lasagne.',
+    options: ['la', 'le', 'degli', 'della'],
+    correctAnswer: 1, 
+  },
+
 
 
 ];
