@@ -316,41 +316,60 @@ export const A1_LESSON_SLIDES = {
 
   //dont have lesson just grammar
   "lesson-Adjectives":[
+
+    {
+      sectionTitle: 'Possessive Adjectives',
+      heading: 'Possessive Adjectives',
+      body:'On this page you’ll find a brief summary of Italian possessive adjectives.\n\nItalian adjectives need to be conjugated according to the gender and number of the noun they refer to. Possessive adjectives are just the same.',
+    },
+  {
+  sectionTitle: 'Possessive Adjectives',
+  heading: 'SINGOLARE',
+  body: {
+        type: 'table',
+        headers: ['', 'MASCHILE', 'FEMMINILE'],
+        rows: [
+          ['io',           '(il) mio',    '(la) mia'],
+          ['tu',           '(il) tuo',    '(la) tua'],
+          ['lui/lei/Lei',  '(il) suo',    '(la) sua'],
+          ['noi',          '(il) nostro', '(la) nostra'],
+          ['voi',          '(il) vostro', '(la) vostra'],
+          ['loro',         '(il) loro',     '(la) loro'],
+        ],
+      },
+    } ,
+    {
+  sectionTitle: 'Possessive Adjectives',
+  heading: 'PLURALE',
+  body: {
+        type: 'table',
+        headers: ['', 'MASCHILE', 'FEMMINILE'],
+        rows: [
+          ['io',           '(i) miei',    '(le) mie'],
+          ['tu',           '(i) tuoi',    '(le) tue'],
+          ['lui/lei/Lei',  '(i) suoi',    '(le) sue'],
+          ['noi',          '(i) nostri', '(le) nostre'],
+          ['voi',          '(i) vostri', '(le) vostre'],
+          ['loro',         '(i) loro',     '(le) loro'],
+        ],
+      },
+    } ,
     {
       sectionTitle: 'Possessive Adjectives',
       heading: '',
-      body:'',
+      body:'Always put an article before the possessive adjective. For example: il mio cane = my dog, le mie scarpe = my shoes, un mio amico = my friend.\n\n',
     },
     {
       sectionTitle: 'Possessive Adjectives',
-      heading: '',
-      body:'',
+      heading: 'The exception',
+      body:'The exception to this rule is when possessive adjectives are used with singular family nouns such as sorella – sister, marito – husband, zia – aunt, nonno – grandfather and so on. In this case no article is used.\nFor example:\n\nSingular: mia sorella, mio zio, mio nonno, mia cugina\n\nPlural: le mie sorelle, i miei zii, i miei nonni, le mie cugine',
     },
     {
       sectionTitle: 'Possessive Adjectives',
-      heading: '',
-      body:'',
+      heading: 'the exception',
+      body:'And the exception to THAT rule is that before the possessive adjective loro, there is ALWAYS an article.\nFor example:\n\nMarco e Fabio sono fratelli: il loro padre è francese, la loro madre è italiana.',
     },
-    {
-      sectionTitle: 'Possessive Adjectives',
-      heading: '',
-      body:'',
-    },
-    {
-      sectionTitle: 'Possessive Adjectives',
-      heading: '',
-      body:'',
-    },
-    {
-      sectionTitle: 'Possessive Adjectives',
-      heading: '',
-      body:'',
-    },
-    {
-      sectionTitle: 'Possessive Adjectives',
-      heading: '',
-      body:'',
-    },
+
     
   ],
   //dont have lesson just grammar

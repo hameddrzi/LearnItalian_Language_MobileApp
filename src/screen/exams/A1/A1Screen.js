@@ -30,44 +30,26 @@ const LESSONS = [
 
 
 
-  { title: 'Elementary Italian Grammar 1', description: 'A or in?', type: 'grammar' },
-  { title: 'Elementary Italian Grammar 2', description: 'Articoli / Articles', type: 'grammar' }, 
-  { title: 'Elementary Italian Grammar 3', description: 'Avverbi / Adverbs', type: 'grammar' },
-  { title: 'Elementary Italian Grammar 4', description: 'C’è/ci sono / There is/there are', type: 'grammar' },
-  { title: 'Elementary Italian Grammar 5', description: 'Forma “Lei” / The “Lei” form', type: 'grammar' },
-  { title: 'Elementary Italian Grammar 6', description: 'Forma passiva / Passive form', type: 'grammar' },
-  { title: 'Elementary Italian Grammar 7', description: 'Passato prossimo / Present Perfect', type: 'grammar' },
-  { title: 'Elementary Italian Grammar 8', description: 'Piace / Piacciono', type: 'grammar' },
-  { title: 'Elementary Italian Grammar 9', description: 'Plurali / Plurals', type: 'grammar' },
-  { title: 'Elementary Italian Grammar 10', description: 'Pronomi / Pronouns', type: 'grammar' },
-  { title: 'Elementary Italian Grammar 11', description: 'Verbi – introduzione/ Introduction to verbs', type: 'grammar' },
-  { title: 'Elementary Italian Grammar 12', description: 'Verbi regolari / Regular verbs', type: 'grammar' },
-  { title: 'Elementary Italian Grammar 13', description: 'Verbi riflessivi / Reflexive verbs', type: 'grammar' },
-  { title: 'Elementary Italian Grammar 14', description: 'Verbi utili / Useful verbs', type: 'grammar' },
 
 
 
-
-
-
-  { title: 'Practice 1', description: 'Aggettivi / Adjectives', type: 'practice' },
-  { title: 'Practice 2', description: 'Articoli 1 / Articles', type: 'practice' },
-  { title: 'Practice 3', description: 'Articoli 2 / Articles', type: 'practice' },
-  { title: 'Practice 4', description: 'C’é o ci sono – 1 / There is o there are', type: 'practice' },
-  { title: 'Practice 5', description: 'C’é o ci sono – 2 / There is o there are', type: 'practice' },
-  { title: 'Practice 6', description: 'Colori / Colors', type: 'practice' },
-  { title: 'Practice 7', description: 'Participio passato – verbi irregolari 1 / Past Participle – irregular verbs', type: 'practice' },
-  { title: 'Practice 8', description: 'Participio passato – verbi irregolari 2 / Past Participle – irregular verbs', type: 'practice' },
-  { title: 'Practice 9', description: 'Passato prossimo 1 / Present Perfect', type: 'practice' },
-  { title: 'Practice 10', description: 'Passato prossimo 2 / Present Perfect', type: 'practice' },
-  { title: 'Practice 11', description: 'Passato prossimo essere o avere / Present Perfect to be or to have', type: 'practice' },
-  { title: 'Practice 12', description: 'Plurale dei nomi – 1 / Plural of nouns', type: 'practice' },
-  { title: 'Practice 13', description: 'Plurale dei nomi – 2 / Plural of nouns', type: 'practice' },
-  { title: 'Practice 14', description: 'Presente indicativo 1 / Present Simple tense', type: 'practice' }, 
-  { title: 'Practice 15', description: 'Pronomi diretti 1 / Direct pronouns', type: 'practice' },
-  { title: 'Practice 16', description: 'Pronomi indiretti / Indirect pronouns', type: 'practice' },
-  { title: 'Practice 17', description: 'Verbo ESSERE / Verb TO BE', type: 'practice' },
-  { title: 'Practice 18', description: 'Verbo AVERE / Verb TO HAVE', type: 'practice' },
+  { id:"Adjectives" ,title: 'Practice 1', description: 'Aggettivi / Adjectives', type: 'practice' },
+  { id:"Articles1",title: 'Practice 2', description: 'Articoli 1 / Articles', type: 'practice' },
+  { id:"Articles2",title: 'Practice 3', description: 'Articoli 2 / Articles', type: 'practice' },
+  { id:"here-is-o-there-are",title: 'Practice 5', description: 'C’é o ci sono – 2 / There is o there are', type: 'practice' },
+  { id:"Colors'",title: 'Practice 6', description: 'Colori / Colors', type: 'practice' },
+  { id:"irregular1",title: 'Practice 7', description: 'Participio passato – verbi irregolari 1 / Past Participle – irregular verbs', type: 'practice' },
+  { id:"irregular2",title: 'Practice 8', description: 'Participio passato – verbi irregolari 2 / Past Participle – irregular verbs', type: 'practice' },
+  { id:"Present-Perfect1",title: 'Practice 9', description: 'Passato prossimo 1 / Present Perfect', type: 'practice' },
+  { id:"Present-Perfect2",title: 'Practice 10', description: 'Passato prossimo 2 / Present Perfect', type: 'practice' },
+  { id:"Present-Perfect-to-be",title: 'Practice 11', description: 'Passato prossimo essere o avere / Present Perfect to be or to have', type: 'practice' },
+  { id:"Plural-of-nouns1",title: 'Practice 12', description: 'Plurale dei nomi – 1 / Plural of nouns', type: 'practice' },
+  { id:"Plural-of-nouns2",title: 'Practice 13', description: 'Plurale dei nomi – 2 / Plural of nouns', type: 'practice' },
+  { id:"Present-Simple-tense",title: 'Practice 14', description: 'Presente indicativo 1 / Present Simple tense', type: 'practice' }, 
+  { id:"Direct-pronouns",title: 'Practice 15', description: 'Pronomi diretti 1 / Direct pronouns', type: 'practice' },
+  { id:"Indirect-pronouns",title: 'Practice 16', description: 'Pronomi indiretti / Indirect pronouns', type: 'practice' },
+  { id:"Verb-TO-BE",title: 'Practice 17', description: 'Verbo ESSERE / Verb TO BE', type: 'practice' },
+  { id:"Verb-TO-HAVE",title: 'Practice 18', description: 'Verbo AVERE / Verb TO HAVE', type: 'practice' },
 
  
 ];
@@ -113,7 +95,6 @@ function A1Screen({ navigation }) {
             {[
               { label: 'All', value: 'all' },
               { label: 'Lesson', value: 'lesson' },
-              { label: 'Grammar', value: 'grammar' },
               { label: 'Practice', value: 'practice' },
             ].map(opt => {
               const active = opt.value === filter;
@@ -137,13 +118,19 @@ function A1Screen({ navigation }) {
 
             {filteredLessons.map((lesson, index) => (
               <TouchableOpacity key={index} style={styles.lessonCard}
-              onPress={() => {
-                const parentNavigator = navigation.getParent();
-                if (parentNavigator) {
-                  parentNavigator.navigate('A1LessonPager', { id: lesson.id, title: lesson.title });
-                }
-              }}
+                onPress={() => {
+                  const parent = navigation.getParent();
+                  if (!parent) return;
+                  if (lesson.type === 'practice') {
+                    parent.navigate('A1Practice', { id: lesson.id, title: lesson.title });
+                  } else {
+                    parent.navigate('A1LessonPager', { id: lesson.id, title: lesson.title });
+                  }
+                }}
+
               >
+
+
                 <View style={styles.lessonInfo}>
                   <Text style={styles.lessonNumber}>{lesson.title}</Text>
                   <Text style={styles.lessonDescription}>{lesson.description}</Text>

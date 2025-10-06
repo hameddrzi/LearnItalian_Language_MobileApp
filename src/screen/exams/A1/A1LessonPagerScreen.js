@@ -1,4 +1,4 @@
-//A1LessonPagerScreen.js
+// A1LessonPagerScreen.js
 
 import React, { useMemo, useRef, useState } from 'react';
 import {
@@ -10,6 +10,29 @@ import { A1_LESSON_SLIDES } from './content/A1LessonSlides';
 const { width, height } = Dimensions.get('window');
 const CARD_H = Math.min(0.58 * height, 520);
 const ANIM_DURATION = 200; // سرعت فید
+
+
+
+
+// lessonId -> practiceId
+const PRACTICE_BY_LESSON = {
+  'lesson-Articles': 'Articles1',                 // داری: Articles1, Articles2
+  'lesson-Plurals': 'Plural-of-nouns1',           // یا 'Plural-of-nouns2'
+  'lesson-There': 'here-is-o-there-are',
+  'lesson-Verbs-in-the-present-tense': 'Present-Simple-tense',
+  'lesson-Piacciono': null,                       // فعلا تمرین نداری؟ null بزار
+  'lesson-Adjectives': 'Adjectives',
+  'lesson-Adverbs': null,
+  'lesson-Past': 'Present-Perfect1',              // یا Present-Perfect2
+  'lesson-Direct-and-indirect-pronouns': 'Direct-pronouns', // یا 'Indirect-pronouns'
+  'lesson-Prepositions': null,
+  'lesson-Reflexive-verbs': null,
+  'lesson-The-Impersonal': null,
+};
+
+
+
+
 
 export default function A1LessonPagerScreen({ route, navigation }) {
   const { id = 'lesson-articles', title = 'Lesson 1' } = route.params || {};
@@ -29,16 +52,12 @@ export default function A1LessonPagerScreen({ route, navigation }) {
     if (isAnimating) return;
     setIsAnimating(true);
 
-    // کارت فعلی محو بشه
     Animated.timing(fadeAnim, {
       toValue: 0,
       duration: ANIM_DURATION,
       useNativeDriver: true,
     }).start(() => {
-      // تغییر ایندکس
       setCurrentIndex(newIndex);
-
-      // کارت جدید ظاهر بشه
       Animated.timing(fadeAnim, {
         toValue: 1,
         duration: ANIM_DURATION,
@@ -107,41 +126,126 @@ export default function A1LessonPagerScreen({ route, navigation }) {
       {/* Bottom buttons */}
       <View style={styles.bottomButtons}>
         <TouchableOpacity
-          style={[styles.button, !canGoPrev && styles.buttonDisabled]}
-          onPress={goToPrev}
-          disabled={!canGoPrev || isAnimating}
-        >
-          <Text style={[styles.buttonText, !canGoPrev && styles.buttonTextDisabled]}>
-            Previous
-          </Text>
-        </TouchableOpacity>
+    style={[styles.button, !canGoPrev && styles.buttonDisabled]}
+    onPress={goToPrev}
+    disabled={!canGoPrev || isAnimating}
+  >
+    <Text style={[styles.buttonText, !canGoPrev && styles.buttonTextDisabled]}>
+      ← Previous
+    </Text>
+  </TouchableOpacity>
 
-        <TouchableOpacity
-          style={[styles.button, styles.nextButton]}
-          onPress={() => (canGoNext ? goToNext() : navigation.navigate('Practice', { fromLesson: id }))}
-          disabled={isAnimating}
-        >
-          <Text style={[styles.buttonText, styles.nextButtonText]}>
-            {canGoNext ? 'Next' : 'Exercises'}
-          </Text>
-        </TouchableOpacity>
+  {/* Next / Exercises */}
+  <TouchableOpacity
+    style={[styles.button, styles.nextButton]}
+    onPress={() => {
+      if (canGoNext) {
+        goToNext();
+      } else {
+        // آخرین اسلاید → برو به تمرین متناظر
+        const practiceId = PRACTICE_BY_LESSON[id] ?? id; // اگر مپ نداشتی، با همون id امتحان کن
+        navigation.navigate('A1Practice', {
+          id: practiceId,
+          title: `${title} — Exercises`,
+        });
+      }
+    }}
+    disabled={isAnimating}
+  >
+    <Text style={[styles.buttonText, styles.nextButtonText]}>
+      {canGoNext ? 'Next →' : 'Exercises →'}
+    </Text>
+  </TouchableOpacity>
       </View>
     </SafeAreaView>
   );
 }
 
+/* ----------------------- فقط همین بخش تغییر کرد ----------------------- */
 const CardContent = React.memo(function CardContent({ slide }) {
   if (!slide) return <View style={{ flex: 1 }} />;
+
+  const renderBody = () => {
+    const b = slide.body;
+
+    // جدول
+    if (b && typeof b === 'object' && b.type === 'table') {
+      return <RNTable headers={b.headers || []} rows={b.rows || []} />;
+    }
+
+    // آرایه از تکه‌ها (JSX/متن)
+    if (Array.isArray(b)) {
+      return b.map((el, i) => <React.Fragment key={i}>{el}</React.Fragment>);
+    }
+
+    // متن ساده
+    if (typeof b === 'string') {
+      return <Text style={styles.cardText}>{b}</Text>;
+    }
+
+    // خود JSX
+    return b || null;
+  };
+
   return (
     <View style={styles.cardContent}>
       {!!slide?.heading && <Text style={styles.cardHeading}>{slide.heading}</Text>}
-      <View style={styles.cardTextContainer}>
-        <Text style={styles.cardText}>{slide.body}</Text>
-      </View>
+      <View style={styles.cardTextContainer}>{renderBody()}</View>
     </View>
   );
 });
 
+/* ----------------------- این کامپوننت جدید اضافه شد ----------------------- */
+function RNTable({ headers = [], rows = [] }) {
+  return (
+    <View style={tbl.container}>
+      {/* Header */}
+      <View style={[tbl.row, tbl.headerRow]}>
+        {headers.map((h, i) => (
+          <View key={i} style={[tbl.cell, i === 0 ? tbl.colNarrow : tbl.colWide]}>
+            <Text style={tbl.headerText}>{h}</Text>
+          </View>
+        ))}
+      </View>
+
+      {/* Rows */}
+      {rows.map((r, ri) => (
+        <View key={ri} style={[tbl.row, ri % 2 === 1 && tbl.strip]}>
+          {r.map((c, ci) => (
+            <View key={ci} style={[tbl.cell, ci === 0 ? tbl.colNarrow : tbl.colWide]}>
+              {typeof c === 'string' ? <Text style={tbl.cellText}>{c}</Text> : c}
+            </View>
+          ))}
+        </View>
+      ))}
+    </View>
+  );
+}
+
+const tbl = StyleSheet.create({
+  container: {
+    borderWidth: 1,
+    borderColor: '#e5e7eb',
+    borderRadius: 12,
+    overflow: 'hidden',
+  },
+  row: { flexDirection: 'row' },
+  headerRow: { backgroundColor: '#fafafa' },
+  strip: { backgroundColor: '#fcfcff' },
+  cell: {
+    paddingVertical: 12,
+    paddingHorizontal: 10,
+    borderRightWidth: 1,
+    borderRightColor: '#eef0f3',
+    flex: 1,
+  },
+  colNarrow: { flex: 0.9 },   // ستون اول باریک‌تر
+  colWide: { flex: 1.1 },
+  headerText: { fontWeight: '800', color: '#111827', textAlign: 'center' },
+  cellText: { color: '#1f2937', fontSize: 15, textAlign: 'center' },
+});
+
+/* ----------------------- بقیه استایل‌ها بدون تغییر ----------------------- */
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#f3e9ff' },
   header: {
@@ -163,7 +267,6 @@ const styles = StyleSheet.create({
   whiteHolder: { height: CARD_H, marginTop: 6, justifyContent: 'center', alignItems: 'center' },
 
   card: {
-    // برای بایین اومدن تکست ها اینو بزن مارجین تاب
     width: width - 90,
     height: CARD_H - 1,
     borderRadius: 26,

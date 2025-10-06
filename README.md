@@ -124,6 +124,7 @@ LearnItalian_Language_MobileApp/
 
 ---
 
+<<<<<<< HEAD
 ## 🔎 About the App
 LearnItalian focuses on short, swipeable lessons and quick practice sessions. Each level (A1, A2, B1, B2, University) groups relevant screens, media, and text content. The app is optimized for low-friction onboarding and day‑to‑day learning, with typography and spacing tuned for readability.
 
@@ -217,6 +218,8 @@ You can customize app icons, splash, and package identifiers via `app.json` and 
 
 ---
 
+=======
+>>>>>>> 707fc14 (add practice of the Adjectives and Articles in A1 lesson)
 ## 🤝 Contributing
 PRs and issues are welcome. For UI/UX changes, please include a short description and screenshots.
 

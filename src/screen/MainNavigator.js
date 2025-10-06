@@ -19,6 +19,7 @@ import GlossaryScreen from './glossary/GlossaryScreen';
 //A1Screen
 import A1Screen from './exams/A1/A1Screen'; 
 import A1LessonPagerScreen from './exams/A1/A1LessonPagerScreen';
+import A1PracticePagerScreen from './exams/A1/A1PracticePagerScreen.js'
 
 
 //Exam univerity 1
@@ -143,6 +144,7 @@ const MainNavigator = () => {
       >
         <MainStack.Screen name="MainTabs" component={TabNavigator} />
         <MainStack.Screen name="A1LessonPager" component={A1LessonPagerScreen} />
+        <MainStack.Screen name="A1Practice" component={A1PracticePagerScreen}/>
         <MainStack.Screen name="ExamFirstUniversity" component={ExamFirstUniversityScreen} />
         <MainStack.Screen name="SuccesExamFirst" component={SuccesExamFirstScreen} />
         <MainStack.Screen name="FaildExamFirst" component={FaildExamFirstScreen} />
