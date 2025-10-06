@@ -124,6 +124,99 @@ LearnItalian_Language_MobileApp/
 
 ---
 
+## 🔎 About the App
+LearnItalian focuses on short, swipeable lessons and quick practice sessions. Each level (A1, A2, B1, B2, University) groups relevant screens, media, and text content. The app is optimized for low-friction onboarding and day‑to‑day learning, with typography and spacing tuned for readability.
+
+---
+
+## 🧩 Architecture Overview
+- **Entry points**: `index.js` registers `App.js` as the root component.
+- **Navigation layer**: `MainNavigator.js` wires stack + tab navigators and routes to top‑level screens.
+- **UI components**: shared pieces live under `src/components` (e.g., `ui/BackgroundGradientAnimation.js`).
+- **Feature screens**: grouped by domain under `src/screen/*` (Home, Login, courses, exams, University).
+- **Static content**: lesson/practice slide data under `src/screen/exams/A1/content/*`.
+
+Minimal example for loading fonts in `App.js`:
+```js
+import * as Font from 'expo-font';
+import { useEffect, useState } from 'react';
+
+export default function App() {
+  const [fontsLoaded, setFontsLoaded] = useState(false);
+  useEffect(() => {
+    Font.loadAsync({
+      Poppins: require('./assets/font/Poppins/Poppins-Regular.ttf'),
+      'Poppins-Bold': require('./assets/font/Poppins/Poppins-Bold.ttf'),
+    }).then(() => setFontsLoaded(true));
+  }, []);
+  if (!fontsLoaded) return null;
+  return /* <MainNavigator /> */ null;
+}
+```
+
+---
+
+## 📚 Content Model
+- **Lessons**: defined in files like `src/screen/exams/A1/content/A1LessonSlides.js`.
+- **Practices**: defined in `src/screen/exams/A1/content/A1PracticeSlide.js`.
+- **Paged presentation**: `react-native-pager-view` renders slides and handles swipe gestures.
+
+A slide item typically includes title, body text, and an image reference from `assets/pic/`.
+
+---
+
+## ➕ Add a New Level or Exam
+1. Duplicate a level folder (e.g., `src/screen/exams/A1/`) and rename to your new level.
+2. Update content files inside `content/` with your new slides.
+3. Create the corresponding screens (e.g., `A2Screen.js`, `A2LessonPagerScreen.js`, `A2PracticePagerScreen.js`).
+4. Register the new screens in `src/screen/MainNavigator.js`.
+5. Add any new images to `assets/pic/` and reference them from your slides.
+
+Tip: keep slide objects small and render‑only—derive computed values in the component layer.
+
+---
+
+## 🎨 Styling & Theming
+- Primary typography uses Poppins; headings may use Bungee/Concert One.
+- Backgrounds can use `expo-linear-gradient` or the `BackgroundGradientAnimation` helper.
+- Keep spacing consistent (8/16/24 dp scale). Prefer flex layouts over absolute positioning for responsiveness.
+
+---
+
+## ♿ Accessibility
+- Use accessible text sizes (min 14–16sp) and sufficient color contrast.
+- Provide `accessibilityLabel` for icon-only buttons.
+- Ensure swipe navigation has alternative tap targets when possible.
+
+---
+
+## ⚡ Performance Guidelines
+- Lazy‑load heavy screens using React Navigation `lazy`/`detachInactiveScreens`.
+- Prefer vector icons (`@expo/vector-icons`) and optimized PNGs/WebP for images.
+- Memoize slide items where possible and avoid inline functions in render loops.
+
+---
+
+## 📦 Production Builds (EAS)
+For modern Expo projects, use EAS Build:
+```bash
+npm install -g eas-cli
+
+# Configure once
+npx expo login
+npx eas login
+npx eas init
+
+# Android build (APK/AAB)
+eas build -p android --profile preview
+
+# iOS build (requires Apple account)
+eas build -p ios --profile preview
+```
+You can customize app icons, splash, and package identifiers via `app.json` and EAS `eas.json` profiles.
+
+---
+
 ## 🤝 Contributing
 PRs and issues are welcome. For UI/UX changes, please include a short description and screenshots.
 
