@@ -2,7 +2,7 @@
 
 import React, { useMemo, useRef, useState } from 'react';
 import {
-  SafeAreaView, View, Text, StyleSheet, TouchableOpacity, Dimensions, Animated
+  SafeAreaView, View, Text, StyleSheet, TouchableOpacity, Dimensions, Animated, Image
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { A1_LESSON_SLIDES } from './content/A1LessonSlides';
@@ -84,7 +84,9 @@ export default function A1LessonPagerScreen({ route, navigation }) {
       {/* Header */}
       <View style={styles.header}>
         <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backBtn}>
-          <Text style={styles.backIcon}>‹</Text>
+          <Image source={require('../../../../assets/pic/mainIcons/Back_bk.png')}
+              style={{ height: 50, width: 50, marginTop: 30 }}
+            />
         </TouchableOpacity>
         <Text style={styles.headerTitle}>{title}</Text>
         <View style={{ width: 28 }} />
@@ -131,7 +133,7 @@ export default function A1LessonPagerScreen({ route, navigation }) {
     disabled={!canGoPrev || isAnimating}
   >
     <Text style={[styles.buttonText, !canGoPrev && styles.buttonTextDisabled]}>
-      ← Previous
+       Previous
     </Text>
   </TouchableOpacity>
 
@@ -153,7 +155,7 @@ export default function A1LessonPagerScreen({ route, navigation }) {
     disabled={isAnimating}
   >
     <Text style={[styles.buttonText, styles.nextButtonText]}>
-      {canGoNext ? 'Next →' : 'Exercises →'}
+      {canGoNext ? 'Next' : 'Exercises'}
     </Text>
   </TouchableOpacity>
       </View>
@@ -253,8 +255,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16, paddingTop: 8, paddingBottom: 6, backgroundColor: '#fff',
   },
   backBtn: { width: 28, height: 28, alignItems: 'center', justifyContent: 'center' },
-  backIcon: { fontSize: 22, fontWeight: '700', color: '#333' },
-  headerTitle: { fontSize: 18, fontWeight: '800', color: '#1f2937' },
+  backIcon: { paddingTop: 10,fontSize: 22, fontWeight: '700', color: '#333' },
+  headerTitle: {fontSize: 18, fontWeight: '800', color: '#1f2937', paddingTop: 60,  },
 
   topCard: { marginHorizontal: 16, marginTop: 10, borderRadius: 20, padding: 16, paddingBottom: 12 },
 

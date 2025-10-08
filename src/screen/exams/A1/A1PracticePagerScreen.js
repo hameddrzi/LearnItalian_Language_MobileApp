@@ -8,6 +8,7 @@ import {
   ScrollView,
   TouchableOpacity,
   Alert,
+  Image
 } from 'react-native';
 import { A1_PRACTICE_SLIDES } from './content/A1PracticeSlide';
 
@@ -72,7 +73,9 @@ export default function A1PracticePagerScreen({ route, navigation }) {
       {/* Header */}
       <View style={styles.header}>
         <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
-          <Text style={styles.backIcon}>←</Text>
+          <Image source={require('../../../../assets/pic/mainIcons/Back.png')}
+              style={{ height: 50, width: 50 }}
+            />
         </TouchableOpacity>
         <Text style={styles.headerTitle}>{title}</Text>
         <Text style={styles.headerTitle}>{currentIndex + 1}/{total}</Text>
@@ -155,7 +158,6 @@ const styles = StyleSheet.create({
   },
   backButton: {
     width: 40, height: 40, borderRadius: 20,
-    backgroundColor: 'rgba(255,255,255,0.2)',
     alignItems: 'center', justifyContent: 'center',
   },
   backIcon: { fontSize: 20, color: '#fff', fontWeight: 'bold' },
@@ -179,7 +181,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F8F9FE', borderRadius: 20, padding: 20, marginBottom: 14,
   },
   question: {
-    fontSize: 16, color: '#1F2937', lineHeight: 24,
+    fontSize: 17, color: '#1F2937', lineHeight: 24, textAlign: 'center'
   },
 
   option: {
@@ -201,7 +203,7 @@ const styles = StyleSheet.create({
   bottomBar: {
     backgroundColor: '#fff',
     paddingHorizontal: 20,
-    paddingBottom: 70,
+    paddingBottom: 40,
     paddingTop: 10,
     borderTopWidth: 1,
     borderTopColor: '#F3F4F6',
