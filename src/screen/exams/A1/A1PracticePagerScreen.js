@@ -201,12 +201,13 @@ const styles = StyleSheet.create({
   bottomBar: {
     backgroundColor: '#fff',
     paddingHorizontal: 20,
-    paddingBottom: 20,
+    paddingBottom: 70,
     paddingTop: 10,
     borderTopWidth: 1,
     borderTopColor: '#F3F4F6',
     flexDirection: 'row',
     justifyContent: 'space-between',
+    
   },
   navBtn: {
     flexDirection: 'row',

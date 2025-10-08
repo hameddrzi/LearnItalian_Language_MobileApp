@@ -35,7 +35,6 @@ const LESSONS = [
 
   { id:"Adjectives" ,title: 'Practice 1', description: 'Aggettivi / Adjectives', type: 'practice' },
   { id:"Articles1",title: 'Practice 2', description: 'Articoli 1 / Articles', type: 'practice' },
-  { id:"Articles2",title: 'Practice 3', description: 'Articoli 2 / Articles', type: 'practice' },
   { id:"here-is-o-there-are",title: 'Practice 5', description: 'C’é o ci sono – 2 / There is o there are', type: 'practice' },
   { id:"Colors'",title: 'Practice 6', description: 'Colori / Colors', type: 'practice' },
   { id:"irregular1",title: 'Practice 7', description: 'Participio passato – verbi irregolari 1 / Past Participle – irregular verbs', type: 'practice' },
