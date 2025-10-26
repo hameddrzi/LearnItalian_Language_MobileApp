@@ -960,4 +960,80 @@ export const A1_PRACTICE_SLIDES = [
   },
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //Reflexive-verbs
+    {
+    id: 'Reflexive-verbs',
+    question: `Reflexive Verbs - Present Tense\n\nPaolo e Maria ... tardi stamattina.`,
+    options: ['mi sono sveglato', 'ci siamo svegliati', 'si sono svegliati'],
+    correctAnswer: 0, 
+  },
+      {
+    id: 'Reflexive-verbs',
+    question: `Reflexive Verbs - Present Tense\n\nGiulia ... sempre con i suoi amici.`,
+    options: ['si diverte', 'vi divertite', 'mi diverte'],
+    correctAnswer: 0, 
+  },
+      {
+    id: 'Reflexive-verbs',
+    question: `Reflexive Verbs - Present Tense\n\nA che ora ... quando vai al lavoro?`,
+    options: ['vi alza', 'ti alzi', 'ti alza'],
+    correctAnswer: 1, 
+  },
+      {
+    id: 'Reflexive-verbs',
+    question: `Reflexive Verbs - Present Tense\n\nPerché ... sempre con i vostri figli?`,
+    options: ['mi arrabbiate' ,'ci arrabbiate', 'vi arrabbiate'],
+    correctAnswer: 2, 
+  },
+      {
+    id: 'Reflexive-verbs',
+    question: `Reflexive Verbs - Present Tense\n\nNoi ... sempre del tuo compleanno.`,
+    options: ['ci ricordiamo', 'vi ricordate', 'ci ricordo'],
+    correctAnswer: 0, 
+  },
+      {
+    id: 'Reflexive-verbs',
+    question: `Reflexive Verbs - Present Tense\n\nSpesso ... dopo mezzanotte.`,
+    options: ['mi addormentiamo', 'ti addormento', 'mi addormento'],
+    correctAnswer: 2, 
+  },
+      {
+    id: 'Reflexive-verbs',
+    question: `Reflexive Verbs - Present Tense\n\nLa mia fidanzata ... sempre al cinema.`,
+    options: ['si annoia', 'si annoio', 'ci annoiamo'],
+    correctAnswer: 0, 
+  },
+      {
+    id: 'Reflexive-verbs',
+    question: `Reflexive Verbs - Present Tense\n\nMarco ... i capelli due volte al mese.`,
+    options: ['mi taglio', 'si taglia', 'vi tagliate'],
+    correctAnswer: 0, 
+  },
+      {
+    id: 'Reflexive-verbs',
+    question: `Reflexive Verbs - Present Tense\n\nLa mia collega ... sempre in modo elegante.`,
+    options: ['mi veste', 'si veste', 'ci vestiamo'],
+    correctAnswer: 1, 
+  },
+      {
+    id: 'Reflexive-verbs',
+    question: `Reflexive Verbs - Present Tense\n\nMaria ... sempre per i suoi figli.`,
+    options: ['si preoccupa', 'ci preoccupiamo', 'mi preoccupa'],
+    correctAnswer: 0, 
+  },
+
+
 ];
