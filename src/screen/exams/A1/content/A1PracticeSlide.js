@@ -333,4 +333,220 @@ export const A1_PRACTICE_SLIDES = [
   },
 
 
+
+  //Verbs-in-the-present-tense"
+
+  {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Essere / To Be\n\n Choose the correct form of the verb:\n\n Mi chiamo Irina e ... russa',
+    options: ['sono', 'sei', 'é', 'siete', 'siamo'],
+    correctAnswer: 0, 
+  },
+    {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Essere / To Be\n\n Choose the correct form of the verb:\n\nLa scuola Madrelingua ...  in via S.Giorgio n.6. ',
+    options: ['sono', 'sei', 'é', 'siete', 'siamo'],
+    correctAnswer: 2, 
+  },
+      {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Essere / To Be\n\n Choose the correct form of the verb:\n\nNoi ... italiani.  ',
+    options: ['sono', 'sei', 'é', 'siete', 'siamo'],
+    correctAnswer: 4, 
+  },
+
+      {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Essere / To Be\n\n Choose the correct form of the verb:\n\nVoi di dove ... ? ',
+    options: ['sono', 'sei', 'é', 'siete', 'siamo'],
+    correctAnswer: 3, 
+  },
+
+      {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Essere / To Be\n\n Choose the correct form of the verb:\n\nAna e Raquel ... due ragazze spagnole. ',
+    options: ['sono', 'sei', 'é', 'siete', 'siamo'],
+    correctAnswer: 0, 
+  },
+
+      {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Essere / To Be\n\n Choose the correct form of the verb:\n\nParigi ...  la capitale della Francia. ',
+    options: ['sono', 'sei', 'é', 'siete', 'siamo'],
+    correctAnswer: 2, 
+  },
+
+  {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Avere / To Have\n\n Choose the correct form of the verb:\n\nSara e Alina ... venticinque anni e sono della Bulgaria.',
+    options: ['ho', 'hai', 'abbiamo', 'avete', 'hanno'],
+    correctAnswer: 4, 
+  },
+    {
+    id: 'Verbs-in-the-present-tense',
+    question: `Avere / To Have\n\n Choose the correct form of the verb:\n\nSe  ...  sete, bevi un bicchiere d'acqua! `,
+    options: ['ho', 'hai', 'abbiamo', 'avete', 'hanno'],
+    correctAnswer: 1, 
+  },
+    {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Avere / To Have\n\n Choose the correct form of the verb:\n\nNoi non ...  una macchina. ',
+    options: ['ho', 'hai', 'abbiamo', 'avete', 'hanno'],
+    correctAnswer: 2, 
+  },
+    {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Avere / To Have\n\n Choose the correct form of the verb:\n\nMi chiamo Marco e ... trentadue anni.',
+    options: ['ho', 'hai', 'abbiamo', 'avete', 'hanno'],
+    correctAnswer: 0, 
+  },
+    {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Avere / To Have\n\n Choose the correct form of the verb:\n\nSe voi ... voglia di uscire, andiamo insieme a bere qualcosa. ',
+    options: ['ho', 'hai', 'abbiamo', 'avete', 'hanno'],
+    correctAnswer: 3, 
+  },
+  
+
+
+
+    {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Other Italian Verbs In The Present Tense\n\nConjugate the verbs:\n\nLa settimana prossima Miriam e Alex ... (partire) per un viaggio in Marocco.',
+    options: ['parto', 'parti', 'partiamo', 'partono'],
+    correctAnswer: 3, 
+  },
+  
+      {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Other Italian Verbs In The Present Tense\n\nConjugate the verbs:\n\nIliana ... (scrivere) spesso lettere a Raquel, la sua amica argentina.',
+    options: ['scrivono', 'scrivete', 'scrive', 'scrivo'],
+    correctAnswer: 2, 
+  },
+      {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Other Italian Verbs In The Present Tense\n\nConjugate the verbs:\n\nAdriana ... (venire) al lavoro tutti i giorni in bicicletta.',
+    options: ['veniamo', 'venite', 'vengo', 'viene'],
+    correctAnswer: 3, 
+  },
+      {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Other Italian Verbs In The Present Tense\n\nConjugate the verbs:\n\nTu sei molto bravo nella musica: ... (suonare) la chitarra e il pianoforte!',
+    options: ['suoni', 'souno', 'souniamo', 'souna'],
+    correctAnswer: 0, 
+  },
+      {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Other Italian Verbs In The Present Tense\n\nConjugate the verbs:\n\nLa biblioteca non apre prima delle 9. ... (andare – noi) a bere un caffè mentre aspettiamo?',
+    options: ['Vado', 'Vai', 'Andiamo', 'Andate'],
+    correctAnswer: 2, 
+  },
+      {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Other Italian Verbs In The Present Tense\n\nConjugate the verbs:\n\nLa settimana prossima ... (uscire) il nuovo album dei Coldplay.',
+    options: ['esce', 'esco', 'usciamo', 'uscite'],
+    correctAnswer: 3, 
+  },
+  
+        {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Present Tense Of Irregular Verbs\n\nChoose the correct option:\n\n ... sempre con i miei amici il sabato sera.',
+    options: ['Esco', 'Uscio', 'Escono'],
+    correctAnswer: 0, 
+  },
+        {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Present Tense Of Irregular Verbs\n\nChoose the correct option:\n\n Loro ... sempre le soluzioni più difficili.',
+    options: ['scelgo', 'scelgono', 'sceglie'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Present Tense Of Irregular Verbs\n\nChoose the correct option:\n\n ... finire i compiti prima di uscire con i tuoi amici.',
+    options: ['Devi', 'Devo', 'Deve'],
+    correctAnswer: 0, 
+  },
+        {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Present Tense Of Irregular Verbs\n\nChoose the correct option:\n\n Il ministro ... una nuova legge elettorale. ',
+    options: ['propongo', 'propone', 'proponiamo'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Verbs-in-the-present-tense',
+    question: 'Present Tense Of Irregular Verbs\n\nChoose the correct option:\n\nLoro non  ... rimanere alla festa.',
+    options: ['vogliono', 'vuoi', 'volete'],
+    correctAnswer: 0, 
+  },
+
+
+
+
+
+
+
+
+
+  // piace piacciono
+  {
+    id: 'Piace-or-piacciono',
+    question: 'Piace or piacciono?\n\nMi ... molto i libri di James Joyce.',
+    options: ['piace', 'piacciono'],
+    correctAnswer: 1, 
+  },
+    {
+    id: 'Piace-or-piacciono',
+    question: 'Piace or piacciono?\n\nCi ...  andare a cena con i nostri amici.',
+    options: ['piace', 'piacciono'],
+    correctAnswer: 0, 
+  },
+    {
+    id: 'Piace-or-piacciono',
+    question: 'Piace or piacciono?\n\nA Daniele ... molto la musica jazz.',
+    options: ['piace', 'piacciono'],
+    correctAnswer: 0, 
+  },
+    {
+    id: 'Piace-or-piacciono',
+    question: 'Piace or piacciono?\n\nIo torno a casa, non mi  ... questo film.',
+    options: ['piace', 'piacciono'],
+    correctAnswer: 0, 
+  },
+    {
+    id: 'Piace-or-piacciono',
+    question: 'Piace or piacciono?\n\nNon ti ... gli spaghetti alla carbonara?',
+    options: ['piace', 'piacciono'],
+    correctAnswer: 1, 
+  },
+    {
+    id: 'Piace-or-piacciono',
+    question: 'Piace or piacciono?\n\nA Laura ...  andare a letto presto.',
+    options: ['piace', 'piacciono'],
+    correctAnswer: 0, 
+  },
+    {
+    id: 'Piace-or-piacciono',
+    question: 'Piace or piacciono?\n\nMaria va spesso in pasticceria perché le  ... i dolci.',
+    options: ['piace', 'piacciono'],
+    correctAnswer: 1, 
+  },
+    {
+    id: 'Piace-or-piacciono',
+    question: 'Piace or piacciono?\n\nAi nostri figli  ...  molto andare in piscina.',
+    options: ['piace', 'piacciono'],
+    correctAnswer: 0, 
+  },
+    {
+    id: 'Piace-or-piacciono',
+    question: 'Piace or piacciono?\n\nPreferisce cucinare il riso perché non le  ... la pasta.',
+    options: ['piace', 'piacciono'],
+    correctAnswer: 0, 
+  },
+    {
+    id: 'Piace-or-piacciono',
+    question: 'Piace or piacciono?\n\nNon ci ... studiare la grammatica.',
+    options: ['piace', 'piacciono'],
+    correctAnswer: 0, 
+  },
+
 ];

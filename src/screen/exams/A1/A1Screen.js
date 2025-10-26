@@ -27,18 +27,14 @@ const LESSONS = [
   { id: "lesson-The-Impersonal",title: 'Elementary Italian Lessons 12', description: 'The Impersonal Form With ‘Si’ ', type: 'lesson' },
 
 
-
-
-
-
-
-
+  //practice
   { id:"Adjectives" ,title: 'Practice 1', description: 'Aggettivi / Adjectives', type: 'practice' },
   { id:"Articles1",title: 'Practice 2', description: 'Articoli 1 / Articles', type: 'practice' },
-  { id:"here-is-o-there-are",title: 'Practice 5', description: 'C’é o ci sono – 2 / There is o there are', type: 'practice' },
-  { id:"Colors'",title: 'Practice 6', description: 'Colori / Colors', type: 'practice' },
-  { id:"irregular1",title: 'Practice 7', description: 'Participio passato – verbi irregolari 1 / Past Participle – irregular verbs', type: 'practice' },
-  { id:"irregular2",title: 'Practice 8', description: 'Participio passato – verbi irregolari 2 / Past Participle – irregular verbs', type: 'practice' },
+  { id:"here-is-o-there-are",title: 'Practice 3', description: 'C’é o ci sono – 2 / There is o there are', type: 'practice' },
+  { id:"Verbs-in-the-present-tense",title: 'Pratice 4', description: 'Verbs in the present tense', type: 'practice' },
+  { id:"Piace-or-piacciono",title: 'Practice 5', description: 'Piace or piacciono', type: 'practice' },
+  { id:"Adjectives",title: 'Practice 6', description: 'Adjectives', type: 'practice' },
+
   { id:"Present-Perfect1",title: 'Practice 9', description: 'Passato prossimo 1 / Present Perfect', type: 'practice' },
   { id:"Present-Perfect2",title: 'Practice 10', description: 'Passato prossimo 2 / Present Perfect', type: 'practice' },
   { id:"Present-Perfect-to-be",title: 'Practice 11', description: 'Passato prossimo essere o avere / Present Perfect to be or to have', type: 'practice' },
@@ -47,9 +43,6 @@ const LESSONS = [
   { id:"Present-Simple-tense",title: 'Practice 14', description: 'Presente indicativo 1 / Present Simple tense', type: 'practice' }, 
   { id:"Direct-pronouns",title: 'Practice 15', description: 'Pronomi diretti 1 / Direct pronouns', type: 'practice' },
   { id:"Indirect-pronouns",title: 'Practice 16', description: 'Pronomi indiretti / Indirect pronouns', type: 'practice' },
-  { id:"Verb-TO-BE",title: 'Practice 17', description: 'Verbo ESSERE / Verb TO BE', type: 'practice' },
-  { id:"Verb-TO-HAVE",title: 'Practice 18', description: 'Verbo AVERE / Verb TO HAVE', type: 'practice' },
-
  
 ];
 
