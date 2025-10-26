@@ -221,14 +221,10 @@ You can customize app icons, splash, and package identifiers via `app.json` and 
 =======
 >>>>>>> 707fc14 (add practice of the Adjectives and Articles in A1 lesson)
 ## 🤝 Contributing
-PRs and issues are welcome. For UI/UX changes, please include a short description and screenshots.
 
----
+<img width="841" height="761" alt="image" src="https://github.com/user-attachments/assets/6c05bdc5-1524-4fa9-8845-2b0089c079b7" />
 
-## 📄 License
-Released under the MIT License. If the repository lacks a LICENSE file, feel free to add one.
 
----
 
 ## 🧭 Roadmap
 - Add local persistence (AsyncStorage) for user progress
