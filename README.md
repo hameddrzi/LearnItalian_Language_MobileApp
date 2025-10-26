@@ -16,14 +16,9 @@ A mobile app for learning Italian with a clean UI, multi-level navigation, and l
 ---
 
 ## 🖼️ Screenshots
-Add images to `assets/pic/` and link them here:
+<img width="653" height="783" alt="image" src="https://github.com/user-attachments/assets/52d08411-9de7-4786-a4ce-5947c4a563f5" />
 
-```markdown
-![Home](assets/pic/HomeAssets/learn.png)
-![Intro](assets/pic/LoginAssets/intro.png)
-```
 
----
 
 ## 🚀 Quick Start
 
