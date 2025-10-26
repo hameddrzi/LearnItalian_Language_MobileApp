@@ -20,13 +20,13 @@ const PRACTICE_BY_LESSON = {
   'lesson-Plurals': 'Plural-of-nouns1',           // یا 'Plural-of-nouns2'
   'lesson-There': 'here-is-o-there-are',
   'lesson-Verbs-in-the-present-tense': 'Present-Simple-tense',
-  'lesson-Piacciono': null,                       // فعلا تمرین نداری؟ null بزار
+  'lesson-Piacciono': "Piace-or-piacciono",                       // فعلا تمرین نداری؟ null بزار
   'lesson-Adjectives': 'Adjectives',
   'lesson-Adverbs': null,
   'lesson-Past': 'Present-Perfect1',              // یا Present-Perfect2
-  'lesson-Direct-and-indirect-pronouns': 'Direct-pronouns', // یا 'Indirect-pronouns'
-  'lesson-Prepositions': null,
-  'lesson-Reflexive-verbs': null,
+  'lesson-Direct-and-indirect-pronouns': 'Direct-and-indirect-pronouns', // یا 'Indirect-pronouns'
+  'lesson-Prepositions': 'Prepositions',
+  'lesson-Reflexive-verbs': "Reflexive-verbs",
   'lesson-The-Impersonal': null,
 };
 

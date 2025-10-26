@@ -834,4 +834,130 @@ export const A1_PRACTICE_SLIDES = [
   },
 
 
+
+
+
+
+
+
+
+
+  //Prepositions
+   {
+    id: 'Prepositions',
+    question: `Prepositions: 'a' or 'in'?\n\nMadrelingua è ... Bologna.`,
+    options: ['in', 'a'],
+    correctAnswer: 1, 
+  },
+  {
+    id: 'Prepositions',
+    question: `Prepositions: 'a' or 'in'?\n\n Andiamo in vacanza ... Maldive.`,
+    options: ['nelle', 'alle'],
+    correctAnswer: 1, 
+  },
+  {
+    id: 'Prepositions',
+    question: `Prepositions: 'a' or 'in'?\n\nI vestiti sono ... armadio.`,
+    options: [`nell'`, `all'`],
+    correctAnswer: 0, 
+  },{
+    id: 'Prepositions',
+    question: `Prepositions: 'a' or 'in'?\n\nSto male e rimango ... letto.`,
+    options: ['a', 'in'],
+    correctAnswer: 0, 
+  },{
+    id: 'Prepositions',
+    question: `Prepositions: 'a' or 'in'?\n\nIl Giappone si trova ... Asia.`,
+    options: ['a', 'in'],
+    correctAnswer: 1, 
+  },{
+    id: 'Prepositions',
+    question: `Prepositions: 'a' or 'in'?\n\nMio fratello va ... scuola tutti i giorni.`,
+    options: [],
+    correctAnswer: 1, 
+  },{
+    id: 'Prepositions',
+    question: `Prepositions: 'a' or 'in'?\n\n ... Madrelingua ci sono tanti studenti.`,
+    options: ['a', 'in'],
+    correctAnswer: 0, 
+  },{
+    id: 'Prepositions',
+    question: `Prepositions: 'a' or 'in'?\n\nSono nata ... Toscana.`,
+    options: ['a', 'in'],
+    correctAnswer: 1, 
+  },{
+    id: 'Prepositions',
+    question: `Prepositions: 'a' or 'in'?\n\nLa pasta è ancora ... forno.`,
+    options: ['al', 'nel'],
+    correctAnswer: 1, 
+  },{
+    id: 'Prepositions',
+    question: `Prepositions: 'a' or 'in'?\n\nViaggiamo sempre ... aereo.`,
+    options: ['in', 'a'],
+    correctAnswer: 0, 
+  },
+
+
+  {
+    id: 'Prepositions',
+    question: `Prepositions\n\nGiovanni vive ... Otranto.`,
+    options: ['a', 'in'],
+    correctAnswer:0 , 
+  },
+    {
+    id: 'Prepositions',
+    question: `Prepositions\n\nJuan viene ... Madrid`,
+    options: ['di', 'da'],
+    correctAnswer: 1, 
+  },
+  {
+    id: 'Prepositions',
+    question: `Prepositions\n\nIo vado ... Francia la prossima settimana.`,
+    options: ['a', 'in'],
+    correctAnswer: 1, 
+  },
+  {
+    id: 'Prepositions',
+    question: `Prepositions\n\nLui va al cinema ... un'amica.`,
+    options: ['con', 'per'],
+    correctAnswer: 0, 
+  },
+  {
+    id: 'Prepositions',
+    question: `Prepositions\n\nAndiamo in vacanza ... una settimana.`,
+    options: ['tra', 'in'],
+    correctAnswer: 0, 
+  },
+  {
+    id: 'Prepositions',
+    question: `Prepositions\n\nIl mio fidanzato dorme sempre ... me.`,
+    options: ['da', 'di'],
+    correctAnswer: 0, 
+  },
+  {
+    id: 'Prepositions',
+    question: `Prepositions\n\nMi piace molto uscire ... sera.`,
+    options: ['a', 'di'],
+    correctAnswer: 1, 
+  },
+  {
+    id: 'Prepositions',
+    question: `Prepositions\n\nFacciamo una lezione ... Dante.`,
+    options: ['su', 'di'],
+    correctAnswer: 0, 
+  },
+  {
+    id: 'Prepositions',
+    question: `Prepositions\n\nVanno in Austria passando ... la Svizzera.`,
+    options: ['per', 'in'],
+    correctAnswer: 0, 
+  },
+  {
+    id: 'Prepositions',
+    question: `Prepositions\n\nLa macchina ... mio fratello è veloce.`,
+    options: ['di', 'da'],
+    correctAnswer: 0, 
+  },
+
+
 ];
