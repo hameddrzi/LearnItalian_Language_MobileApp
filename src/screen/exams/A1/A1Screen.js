@@ -13,14 +13,14 @@ import {
 
 
 const LESSONS = [
-  { id: "lesson-Articles",title: 'Elementary Italian Lessons 1', description: 'Articles', type: 'lesson' },
-  { id: "lesson-Plurals",title: 'Elementary Italian Lessons 2', description: 'Plurals', type: 'lesson' },
-  { id: "lesson-There",title: 'Elementary Italian Lessons 3', description: 'There is/There are', type: 'lesson' },
-  { id: "lesson-Verbs-in-the-present-tense",title: 'Elementary Italian Lessons 4', description: 'Verbs in the present tense', type: 'lesson' },
-  { id: "lesson-Piacciono",title: 'Elementary Italian Lessons 5', description: 'Like – Piace / Piacciono', type: 'lesson' },
-  { id: "lesson-Adjectives",title: 'Elementary Italian Lessons 6', description: 'Adjectives', type: 'lesson' },
-  { id: "lesson-Adverbs",title: 'Elementary Italian Lessons 7', description: 'Adverbs', type: 'lesson' },
-  { id: "lesson-Past",title: 'Elementary Italian Lessons 8', description: 'The Past', type: 'lesson' },
+  { id: "lesson-Articles",title: 'Elementary Italian Lessons 1', description: 'Articles', type: 'lesson' },//
+  { id: "lesson-Plurals",title: 'Elementary Italian Lessons 2', description: 'Plurals', type: 'lesson' },//*
+  { id: "lesson-There",title: 'Elementary Italian Lessons 3', description: 'There is/There are', type: 'lesson' },//
+  { id: "lesson-Verbs-in-the-present-tense",title: 'Elementary Italian Lessons 4', description: 'Verbs in the present tense', type: 'lesson' },//
+  { id: "lesson-Piacciono",title: 'Elementary Italian Lessons 5', description: 'Like – Piace / Piacciono', type: 'lesson' },//
+  { id: "lesson-Adjectives",title: 'Elementary Italian Lessons 6', description: 'Adjectives', type: 'lesson' },//
+  { id: "lesson-Adverbs",title: 'Elementary Italian Lessons 7', description: 'Adverbs', type: 'lesson' },//*
+  { id: "lesson-Past",title: 'Elementary Italian Lessons 8', description: 'The Past', type: 'lesson' },//
   { id: "lesson-Direct-and-indirect-pronouns",title: 'Elementary Italian Lessons 9', description: 'Direct and indirect pronouns', type: 'lesson' },
   { id: "lesson-Prepositions",title: 'Elementary Italian Lessons 10', description: 'Prepositions', type: 'lesson' }, 
   { id: "lesson-Reflexive-verbs",title: 'Elementary Italian Lessons 11', description: 'Reflexive verbs', type: 'lesson' },
@@ -28,22 +28,22 @@ const LESSONS = [
 
 
   //practice
-  { id:"Adjectives" ,title: 'Practice 1', description: 'Aggettivi / Adjectives', type: 'practice' },
-  { id:"Articles1",title: 'Practice 2', description: 'Articoli 1 / Articles', type: 'practice' },
-  { id:"here-is-o-there-are",title: 'Practice 3', description: 'C’é o ci sono – 2 / There is o there are', type: 'practice' },
-  { id:"Verbs-in-the-present-tense",title: 'Pratice 4', description: 'Verbs in the present tense', type: 'practice' },
-  { id:"Piace-or-piacciono",title: 'Practice 5', description: 'Piace or piacciono', type: 'practice' },
-  { id:"Adjectives",title: 'Practice 6', description: 'Adjectives', type: 'practice' },
+  
+  { id:"Articles1",title: 'Practice 1', description: 'Articoli 1 / Articles', type: 'practice' },
+  { id:"here-is-o-there-are",title: 'Practice 2', description: 'C’é o ci sono – 2 / There is o there are', type: 'practice' },
+  { id:"Verbs-in-the-present-tense",title: 'Pratice 3', description: 'Verbs in the present tense', type: 'practice' },
+  { id:"Piace-or-piacciono",title: 'Practice 4', description: 'Piace or piacciono', type: 'practice' },
+  { id:"Adjectives" ,title: 'Practice 5', description: 'Aggettivi / Adjectives', type: 'practice' },
+  { id:"The-Past",title: 'Practice 6', description: 'Past', type: 'practice' },
+  { id:"Direct-and-indirect-pronouns",title: 'Practice 9', description: 'Direct and indirect pronouns', type: 'practice' }, 
 
-  { id:"Present-Perfect1",title: 'Practice 9', description: 'Passato prossimo 1 / Present Perfect', type: 'practice' },
-  { id:"Present-Perfect2",title: 'Practice 10', description: 'Passato prossimo 2 / Present Perfect', type: 'practice' },
-  { id:"Present-Perfect-to-be",title: 'Practice 11', description: 'Passato prossimo essere o avere / Present Perfect to be or to have', type: 'practice' },
-  { id:"Plural-of-nouns1",title: 'Practice 12', description: 'Plurale dei nomi – 1 / Plural of nouns', type: 'practice' },
-  { id:"Plural-of-nouns2",title: 'Practice 13', description: 'Plurale dei nomi – 2 / Plural of nouns', type: 'practice' },
-  { id:"Present-Simple-tense",title: 'Practice 14', description: 'Presente indicativo 1 / Present Simple tense', type: 'practice' }, 
-  { id:"Direct-pronouns",title: 'Practice 15', description: 'Pronomi diretti 1 / Direct pronouns', type: 'practice' },
-  { id:"Indirect-pronouns",title: 'Practice 16', description: 'Pronomi indiretti / Indirect pronouns', type: 'practice' },
- 
+  
+  { id:"Prepositions",title: 'Practice 10', description: 'Prepositions', type: 'practice' },
+  { id:"Reflexive-verbs",title: 'Practice 11', description: 'Reflexive verbs', type: 'practice' },
+  { id:"The-Impersonal",title: 'Practice 12', description: 'The Impersonal Form With ‘Si’ ', type: 'practice' },
+
+
+
 ];
 
 function A1Screen({ navigation }) {

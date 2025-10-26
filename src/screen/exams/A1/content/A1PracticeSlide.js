@@ -51,6 +51,49 @@ export const A1_PRACTICE_SLIDES = [
 
 
 
+      {
+    id: 'Adjectives',
+    question: 'Possessive Adjectives\n\n ... migliore amico si chiama Giuseppe.',
+    options: ['Mi', 'Mio', 'Il mio'],
+    correctAnswer: 2, 
+  },
+      {
+    id: 'Adjectives',
+    question: `Possessive Adjectives\n\nRagazzi, dov'è ... insegnante?`,
+    options: ['vostra', 'la vostra', 'la tua'],
+    correctAnswer: 1, 
+  },
+        {
+    id: 'Adjectives',
+    question: `Possessive Adjectives\n\n... madre lavora come infermiera.`,
+    options: ['Mia', 'La mia', 'Ma'],
+    correctAnswer: 0, 
+  },
+        {
+    id: 'Adjectives',
+    question: `Possessive Adjectives\n\n ... nonni vivono in Francia.`,
+    options: ['I nostri', 'Noi', 'Nostri' ],
+    correctAnswer: 0, 
+  },
+        {
+    id: 'Adjectives',
+    question: `Possessive Adjectives\n\nPer favore, mi presti ... gomma?`,
+    options: ['tua','la vostra', 'la tua' ],
+    correctAnswer: 4, 
+  },      {
+    id: 'Adjectives',
+    question: `Possessive Adjectives\n\nOggi vado a pranzo dai ... cugini.`,
+    options: ['i nostri', 'i miem', 'miei'],
+    correctAnswer: 2, 
+  },      {
+    id: 'Adjectives',
+    question: `Possessive Adjectives\n\nMarco e Lucia sono usciti, non c'è ... macchina.`,
+    options: ['loro','vostra' ,'la loro'],
+    correctAnswer: 2, 
+  },
+
+
+
 
     //Articles1
     {
@@ -548,5 +591,247 @@ export const A1_PRACTICE_SLIDES = [
     options: ['piace', 'piacciono'],
     correctAnswer: 0, 
   },
+
+
+
+
+
+
+
+  //Past
+    {
+    id: 'The-Past',
+    question: 'Conjugate The Past Tense\n\nLaura ... (scegliere) di studiare in Belgio invece che in Italia.',
+    options: ['ho scelto', 'scelgo', 'ha scelto', 'siete scelto'],
+    correctAnswer: 2, 
+  },
+      {
+    id: 'The-Past',
+    question: 'Conjugate The Past Tense\n\nIo e Sandro ... (vivere) insieme a Padova per cinque anni.',
+    options: ['abbiamo vissuto', 'ho vesto', 'vivo', 'ha vissuto'],
+    correctAnswer: 0, 
+  },    {
+    id: 'The-Past',
+    question: `Conjugate The Past Tense\n\n... (voi – vedere) l'ultimo film di Quentin Tarantino?`,
+    options: ['hanno visto', 'ho visto', 'avete visto', 'sono visti'],
+    correctAnswer: 2, 
+  },    {
+    id: 'The-Past',
+    question: 'Conjugate The Past Tense\n\nQuesto pomeriggio Sara e Lisa ... (cercare) un bel regalo per Simonetta.',
+    options: ['sono cercato', 'hanno cercato', 'ho cercato', 'sei cercato'],
+    correctAnswer: 1, 
+  },    {
+    id: 'The-Past',
+    question: 'Conjugate The Past Tense\n\nToni mi ... (raccontare) del suo viaggio in Bolivia.',
+    options: ['racconta', 'hanno racontato','ha raccontato', 'racconti'],
+    correctAnswer: 2, 
+  },    {
+    id: 'The-Past',
+    question: 'Conjugate The Past Tense\n\nLa scorsa estate i miei parenti del Canada ... (venire) a trovarci.',
+    options: ['ho venuto', 'sei venuta', 'siete venuti','sono venuti' ],
+    correctAnswer: 3, 
+  },    {
+    id: 'The-Past',
+    question: 'Conjugate The Past Tense\n\nIl mio fratellino ... (rompere) la lampada preferita di mia mamma.',
+    options: ['rottuto', 'avete rotti', 'ha rotto', 'sono rompetuto'],
+    correctAnswer: 2, 
+  },    {
+    id: 'The-Past',
+    question: 'Conjugate The Past Tense\n\nEttore ... (partire) per la Calabria.',
+    options: ['ha partito', 'è partita', 'è partito', 'hanno partito'],
+    correctAnswer: 2, 
+  },
+
+
+  {
+    id: 'The-Past',
+    question: `Past Tense with 'essere' or 'avere'?\n\n Ieri sera ... andato a teatro.`,
+    options: ['ho', 'sono'],
+    correctAnswer: 1, 
+  },{
+    id: 'The-Past',
+    question: `Past Tense with 'essere' or 'avere'?\n\n... finito di fare i compiti?`,
+    options: ['Hai', 'Sono'],
+    correctAnswer: 0, 
+  },{
+    id: 'The-Past',
+    question: `Past Tense with 'essere' or 'avere'?\n\nA Roma ... visitato molti musei.`,
+    options: ['abbiamo', 'siamo'],
+    correctAnswer: 0, 
+  },{
+    id: 'The-Past',
+    question: `Past Tense with 'essere' or 'avere'?\n\nTi ... detto che ho un nuovo lavoro?`,
+    options: ['sono', 'ho'],
+    correctAnswer: 1, 
+  },{
+    id: 'The-Past',
+    question: `Past Tense with 'essere' or 'avere'?\n\n ...  messo la birra in frigorifero.`,
+    options: ['Ho', 'Sono'],
+    correctAnswer: 0, 
+  },{
+    id: 'The-Past',
+    question: `Past Tense with 'essere' or 'avere'?\n\nGiovanni ... visto un film al cinema.`,
+    options: ['ha', 'é'],
+    correctAnswer: 0, 
+  },{
+    id: 'The-Past',
+    question: `Past Tense with 'essere' or 'avere'?\n\n Molti miei amici ... venuti alla festa.`,
+    options: ['hanno', 'sono'],
+    correctAnswer: 1, 
+  },{
+    id: 'The-Past',
+    question: `Past Tense with 'essere' or 'avere'?\n\nI miei studenti ... letto molti libri in italiano. `,
+    options: ['hanno', 'sono'],
+    correctAnswer: 0, 
+  },{
+    id: 'The-Past',
+    question: `Past Tense with 'essere' or 'avere'?\n\nA Venezia ... visitato una mostra molto interessante.`,
+    options: ['ho', 'sono'],
+    correctAnswer: 0, 
+  },{
+    id: 'The-Past',
+    question: `Past Tense with 'essere' or 'avere'?\n\n ... comprato il vino per stasera? `,
+    options: ['Hai', 'Sei'],
+    correctAnswer: 0, 
+  },{
+    id: 'The-Past',
+    question: `Past Tense with 'essere' or 'avere'?\n\n Martina ... cominciato un corso di portoghese `,
+    options: ['ha', 'é'],
+    correctAnswer: 0, 
+  },{
+    id: 'The-Past',
+    question: `Past Tense with 'essere' or 'avere'?\n\nLoro non ...capito niente della lezione. `,
+    options: ['hanno', 'sono'],
+    correctAnswer: 0, 
+  },
+
+
+
+  //Direct-pronouns
+  {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Direct Object Pronouns\n\nCarla è una mia vecchia amica, ... conosco da molti anni.`,
+    options: ['lo', 'li', 'la'],
+    correctAnswer: 2, 
+  },
+    {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Direct Object Pronouns\n\n... ho chiamati per invitarvi a cena.`,
+    options: ['Ci', 'Vi', 'Mi'],
+    correctAnswer: 1, 
+  },
+    {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Direct Object Pronouns\n\nÈ tutto il giorno che ... cerco: dove sei stato?`,
+    options: ['te', 'ti', 'vi'],
+    correctAnswer: 1, 
+  },
+    {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Direct Object Pronouns\n\nHai letto i libri che ti ho regalato? Si, ...ho letti tutti.`,
+    options: ['lo', 'le', 'li'],
+    correctAnswer: 2, 
+  },
+    {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Direct Object Pronouns\n\nCucini mai le lasagne? Si, ...cucino ogni domenica.`,
+    options: ['lo', 'le', 'la'],
+    correctAnswer: 1, 
+  },
+    {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Direct Object Pronouns\n\nVai tu a fare la spesa? Si, ... faccio io quando torno.`,
+    options: ['la', 'le', 'li'],
+    correctAnswer: 0, 
+  },
+    {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Direct Object Pronouns\n\nQuanto prosciutto vuole signora? ... voglio due etti.`,
+    options: ['Lo', 'La', 'Ne'],
+    correctAnswer: 2, 
+  },
+    {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Direct Object Pronouns\n\nLa frutta fa molto bene ma non ... mangio quasi mai.`,
+    options: ['le', 'lo', 'la'],
+    correctAnswer: 2, 
+  },
+    {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Direct Object Pronouns\n\nSono molto stanco, ... puoi aiutare per favore?`,
+    options: ['ti','mi', 'vi' ],
+    correctAnswer: 1, 
+  },
+    {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Direct Object Pronouns\n\n... conosco tutti i tuoi amici.`,
+    options: ['Lo', 'La', 'Li'],
+    correctAnswer: 2, 
+  },
+
+
+
+
+  {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Indirect Object Pronouns\n\nQuando andrò da mia madre ... racconterò quello che è successo.`,
+    options: ['la', 'li', 'le'],
+    correctAnswer: 2, 
+  },
+ {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Indirect Object Pronouns\n\n... ho chiesto se volevano venire a cena a casa mia.`,
+    options: ['Gli', 'Li', 'Mi'],
+    correctAnswer: 0, 
+  },
+ {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Indirect Object Pronouns\n\nMarco, ora vado a fare la spesa ... occorre niente?`,
+    options: ['te', 'ti','vi' ],
+    correctAnswer: 1, 
+  },
+ {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Indirect Object Pronouns\n\nHai comprato il regalo ai tuoi nipoti? Si, ... ho comprato un libro.`,
+    options: ['gli', 'le', 'li'],
+    correctAnswer: 0, 
+  },
+ {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Indirect Object Pronouns\n\nHai parlato con il tuo capo? Si, ... ho telefonato questa mattina.`,
+    options: ['gli', 'le', 'li'],
+    correctAnswer: 0, 
+  },
+ {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Indirect Object Pronouns\n\nSignor Rossi, ... presento mia moglie.`,
+    options: ['la', 'le', 'li'],
+    correctAnswer: 1, 
+  },
+ {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Indirect Object Pronouns\n\nPer il compleanno di Eva ... facciamo una festa a sorpresa.`,
+    options: ['li', 'le', 'la'],
+    correctAnswer: 1, 
+  },
+ {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Indirect Object Pronouns\n\nQuando torni a casa controlla la posta ... ho inviato una lettera.`,
+    options: ['vi', 'lo', 'ti'],
+    correctAnswer: 2, 
+  },
+ {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Indirect Object Pronouns\n\nSe ti piace la musica jazz ... consiglio questo cd.`,
+    options: ['ti', 'vi', 'mi'],
+    correctAnswer: 0, 
+  },
+ {
+    id: 'Direct-and-indirect-pronouns',
+    question: `Indirect Object Pronouns\n\nVi ho già detto che non ... posso prestare la macchina!`,
+    options: ['ci', 'vi', 'mi'],
+    correctAnswer: 1, 
+  },
+
 
 ];

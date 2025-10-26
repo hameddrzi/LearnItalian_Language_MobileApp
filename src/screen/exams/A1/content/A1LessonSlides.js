@@ -373,7 +373,40 @@ export const A1_LESSON_SLIDES = {
     
   ],
   //dont have lesson just grammar
-  "lesson-Adverbs":[],
+  "lesson-Adverbs":[
+    {
+      sectionTitle: 'Adverbs',
+      heading: 'Adverbs',
+      body:'This lesson is about what an adverb is and how most adverbs are formed in Italian grammar.\n\nAn adverb is an invariable part of the sentence (that means it cannot be declined for number, gender and case) and it determines, modifies the way an action is done or specifies something about a verb, an adjective or another adverb.',
+    },
+    {
+      sectionTitle: 'Adverbs',
+      heading: 'Adverbs',
+      body:'It usually answers to the question “How?” (“Come?” in italian).\n\nAdverbs are formed by adding the suffix “-mente” to the feminine singular form of the adjective.',
+    },
+    {
+      sectionTitle: 'Adverbs',
+      heading: 'For example:',
+      body:'lento → lenta → lentamente\n\ngiusto → giusta → giustamente\n\nfelice → felice → felicemente',
+    },
+    {
+      sectionTitle: 'Adverbs',
+      heading: ' ends in “-ile” or “',
+      body:'If the adjective ends in “-ile” or “-ale”, you simply add the suffix to the root of the adjective.',
+    },
+    {
+      sectionTitle: 'Adverbs',
+      heading: 'For example:',
+      body:'gentile → gentilmente (gently)\n\nservile → servilmente (slavishly)\n\nspeciale → specialmente (especially)\n\ngenerale → generalmente (generally)',
+    },
+    {
+      sectionTitle: 'Adverbs',
+      heading: 'It is important to note that',
+      body:'It is important to note that not all the adjectives can turn into adverbs and that not all the adverbs are derived from adjectives!\n\nAs said, the adverbs can modify or specify the word to which they are referred.',
+    },
+
+
+  ],
 
 
   "lesson-Past":[
